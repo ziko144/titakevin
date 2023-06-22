@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,html{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            background-image: url(mezar.jpg);
+            background-position: center;
+            background-size: cover;
+            width: 60%;
+            height: 60%;
+        }
+        .Mubariz{
+            background-image: url(mubariz.jpg);
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+
+        }
+        .ziko{
+            background-image: url(m.jpg);
+            height: 200px;
+            width: 200px;
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+        }
+        .Mubariz:hover{
+            background-image:url(images.jpg) ;
+        }
+        .Mubariz:hover+.ziko{
+            background-image: url(mezar.jpg);
+        }
+        p{
+            scale:0;
+            color: whitesmoke;
+        }
+        .ziko:hover+p{
+            scale: 1;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="Mubariz">
+        <div class="ziko"></div>
+        <p>Uşaq yaşlarından idmanın boks növü ilə məşğul olmuş Mübariz İbrahimov 2005-ci ildə orta təhsilini başa vurduqdan sonra hərbi xidmətə çağırılmışdır. Azərbaycan Daxili İşlər Nazirliyinə bağlı xüsusi təyinatlı qüvvələrdə xidmət etmiş İbrahimov iki il sonra hərbi xidmətini bitirmiş, 2009-cu ildə isə Azərbaycan Silahlı Qüvvələrinin sıralarında könüllü xidmətə başlamışdır. </p>                   
+    </div>
+</body>
+</html>
